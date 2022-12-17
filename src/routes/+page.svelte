@@ -14,8 +14,8 @@
 	const enchanceSubmitFunction: SubmitFunction = () => {
 		loading = true;
 
-		// update is a function which triggers the logic that would be triggered if this callback wasn't set
-		// (if the form was submitted natively)
+		// update is a function which triggers the logic that would be triggered if this callback isn't set
+		// (if the form is submitted natively)
 		return async ({ update }) => {
 			update();
 			loading = false;
