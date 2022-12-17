@@ -23,6 +23,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>SvelteKit - Learn Form Loading</title>
+</svelte:head>
+
 <section class="main text-slate-700 text-center">
 	<div class="mb-4">
 		<h1 class="text-3xl">Welcome to project loader</h1>
